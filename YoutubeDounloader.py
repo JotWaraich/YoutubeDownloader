@@ -10,5 +10,5 @@ print("views :", yt.views)
 
 yd = yt.streams.get_highest_resolution() #for the highest resolution
 # yd = yt.streams.get_by_resolution(1080)
-path = "S:\\learning\\python automation\\youtube downloader\\videos"
+path = input("Enter path : ")
 yd.download(path)
